@@ -9,4 +9,4 @@ os.mkdir(f'{numero}')
 
 dir = f'{numero}'
 
-os.system(f'pyinstaller pdf-name-csv.py')
+os.system(f'pyinstaller --onefile pdf-name-csv.py')
