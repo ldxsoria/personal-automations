@@ -32,7 +32,7 @@ if orden != None:
 
 
 	#Obtener nuevos nombres de un txt
-	with open('nombres.csv', 'r') as f:
+	with open('.nombres.csv', 'r', encoding='utf-8') as f:
 		reader = csv.reader(f)
 		new_name = list(reader)
 	#print(len(new_name))
