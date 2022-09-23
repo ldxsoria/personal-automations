@@ -13,6 +13,7 @@ for archivo in directorio.iterdir():
 
 #print(len(original_names))
 #print(original_names)
+original_names.sort()
 
 
 
