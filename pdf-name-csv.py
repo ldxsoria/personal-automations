@@ -2,7 +2,7 @@ import os
 import csv
 import pathlib
 
-os.system('clear')
+#os.system('clear')
 print('Bienvenido, este Script fue desarrolado en python por ldxsoria\nsigueme en: https://github.com/ldxsoria\n')
 print('REQUISITOS:')
 print("1) Crear una nueva carpeta")
