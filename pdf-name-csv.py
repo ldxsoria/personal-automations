@@ -2,7 +2,6 @@ import os
 import csv
 import pathlib
 
-
 #Obtener nombre de todos los archivos en Orden
 ejemplo_dir = '.'
 original_names = []
