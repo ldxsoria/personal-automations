@@ -48,5 +48,5 @@ if orden != None:
 		comando = comando.replace("]","")
 		comando = comando.replace("'","")
 		comando = comando.replace(","," ")
-		os.system("mv %s" % comando)
+		os.system("rename %s" % comando)
 		#print(comando)
