@@ -1,12 +1,12 @@
 import os
 import pathlib
 
-path = pathlib.Path(__file__).parent.resolve()
+#path = pathlib.Path(__file__).parent.resolve()
 
 numero = input('Numero de la version >')
 
-os.mkdir(f'path/{numero}')
+os.mkdir(f'{numero}')
 
-dir = f'path/{numero}'
+dir = f'{numero}'
 
-os.system(f'pyinstaller {dir}/pdf-name-csv.py')
+os.system(f'pyinstaller pdf-name-csv.py')
